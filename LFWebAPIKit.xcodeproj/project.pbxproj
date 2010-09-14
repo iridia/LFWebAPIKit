@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF055E38123F43FD0035DF1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		FF055E39123F44020035DF1D /* LFHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7E70D3123F40FC0053BCA7 /* LFHTTPRequest.h */; };
+		FF055E3A123F44020035DF1D /* LFSiteReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7E70D5123F40FC0053BCA7 /* LFSiteReachability.h */; };
+		FF055E3B123F44020035DF1D /* LFWebAPIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7E70D7123F40FC0053BCA7 /* LFWebAPIKit.h */; };
+		FF055E3C123F44020035DF1D /* NSData+LFHTTPFormExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7E70D8123F40FC0053BCA7 /* NSData+LFHTTPFormExtensions.h */; };
+		FF055E3D123F44020035DF1D /* LFWebAPIKit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = FF7E7117123F41C10053BCA7 /* LFWebAPIKit_Prefix.pch */; };
+		FF055E3E123F44060035DF1D /* LFHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7E70D4123F40FC0053BCA7 /* LFHTTPRequest.m */; };
+		FF055E3F123F44060035DF1D /* LFSiteReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7E70D6123F40FC0053BCA7 /* LFSiteReachability.m */; };
+		FF055E40123F44060035DF1D /* NSData+LFHTTPFormExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7E70D9123F40FC0053BCA7 /* NSData+LFHTTPFormExtensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF055E35123F43DD0035DF1D /* libLFWebAPIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLFWebAPIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7E70D3123F40FC0053BCA7 /* LFHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFHTTPRequest.h; sourceTree = "<group>"; };
+		FF7E70D4123F40FC0053BCA7 /* LFHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFHTTPRequest.m; sourceTree = "<group>"; };
+		FF7E70D5123F40FC0053BCA7 /* LFSiteReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSiteReachability.h; sourceTree = "<group>"; };
+		FF7E70D6123F40FC0053BCA7 /* LFSiteReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSiteReachability.m; sourceTree = "<group>"; };
+		FF7E70D7123F40FC0053BCA7 /* LFWebAPIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFWebAPIKit.h; sourceTree = "<group>"; };
+		FF7E70D8123F40FC0053BCA7 /* NSData+LFHTTPFormExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+LFHTTPFormExtensions.h"; sourceTree = "<group>"; };
+		FF7E70D9123F40FC0053BCA7 /* NSData+LFHTTPFormExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LFHTTPFormExtensions.m"; sourceTree = "<group>"; };
+		FF7E7117123F41C10053BCA7 /* LFWebAPIKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFWebAPIKit_Prefix.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF055E33123F43DD0035DF1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF055E38123F43FD0035DF1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF055E35123F43DD0035DF1D /* libLFWebAPIKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* MPNotification */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = MPNotification;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E70D3123F40FC0053BCA7 /* LFHTTPRequest.h */,
+				FF7E70D4123F40FC0053BCA7 /* LFHTTPRequest.m */,
+				FF7E70D5123F40FC0053BCA7 /* LFSiteReachability.h */,
+				FF7E70D6123F40FC0053BCA7 /* LFSiteReachability.m */,
+				FF7E70D7123F40FC0053BCA7 /* LFWebAPIKit.h */,
+				FF7E70D8123F40FC0053BCA7 /* NSData+LFHTTPFormExtensions.h */,
+				FF7E70D9123F40FC0053BCA7 /* NSData+LFHTTPFormExtensions.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E7117123F41C10053BCA7 /* LFWebAPIKit_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FF055E31123F43DD0035DF1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF055E39123F44020035DF1D /* LFHTTPRequest.h in Headers */,
+				FF055E3A123F44020035DF1D /* LFSiteReachability.h in Headers */,
+				FF055E3B123F44020035DF1D /* LFWebAPIKit.h in Headers */,
+				FF055E3C123F44020035DF1D /* NSData+LFHTTPFormExtensions.h in Headers */,
+				FF055E3D123F44020035DF1D /* LFWebAPIKit_Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FF055E34123F43DD0035DF1D /* LFWebAPIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF055E43123F44110035DF1D /* Build configuration list for PBXNativeTarget "LFWebAPIKit" */;
+			buildPhases = (
+				FF055E31123F43DD0035DF1D /* Headers */,
+				FF055E32123F43DD0035DF1D /* Sources */,
+				FF055E33123F43DD0035DF1D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFWebAPIKit;
+			productName = LFWebAPIKit_Touch;
+			productReference = FF055E35123F43DD0035DF1D /* libLFWebAPIKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LFWebAPIKit" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* MPNotification */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF055E34123F43DD0035DF1D /* LFWebAPIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF055E32123F43DD0035DF1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF055E3E123F44060035DF1D /* LFHTTPRequest.m in Sources */,
+				FF055E3F123F44060035DF1D /* LFSiteReachability.m in Sources */,
+				FF055E40123F44060035DF1D /* NSData+LFHTTPFormExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_SYMBOL_SEPARATION = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_SYMBOL_SEPARATION = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		FF055E36123F43DD0035DF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = LFWebAPIKit;
+				SDKROOT = iphoneos3.2;
+			};
+			name = Debug;
+		};
+		FF055E37123F43DD0035DF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = LFWebAPIKit;
+				SDKROOT = iphoneos3.2;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LFWebAPIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF055E43123F44110035DF1D /* Build configuration list for PBXNativeTarget "LFWebAPIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF055E36123F43DD0035DF1D /* Debug */,
+				FF055E37123F43DD0035DF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
