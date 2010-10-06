@@ -134,7 +134,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LFWebAPIKit" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* MPNotification */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -173,7 +180,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.2;
 			};
 			name = Debug;
 		};
@@ -190,7 +197,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.2;
 			};
 			name = Release;
 		};
@@ -203,7 +210,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
 				PRODUCT_NAME = LFWebAPIKit;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos4.2;
 			};
 			name = Debug;
 		};
@@ -216,7 +223,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = LFWebAPIKit;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos4.2;
 				ZERO_LINK = NO;
 			};
 			name = Release;
